@@ -1,4 +1,4 @@
-data class Person(val surname: String, val name: String, val age: Number){
+data class Person(val surname: String, val name: String, val age: Int){
 
     public fun getPerson():String {
         return (this.name + " " + this.surname + ", age "+  this.age.toString())
